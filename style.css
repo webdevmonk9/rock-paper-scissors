@@ -1,0 +1,31 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+#game {
+     width: auto;
+     margin: 10% auto;
+     text-align: center;
+     font-family: sans-serif;
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     gap:30px;
+   }
+   
+   button {
+     background-color: lightblue;
+     border: none;
+     padding: 5px 10px;
+     cursor: pointer;
+   }
+   
+   button:hover {
+     background-color: skyblue;
+   }
+   
+   #result {
+     font-weight: bold;
+   }
+   
